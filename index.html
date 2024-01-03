@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./lib/bootstrap.min.css" />
+    <link rel="stylesheet" href="./main.css" />
+    <title>Bootstrap</title>
+  </head>
+  <body>
+    <header class="container">
+      <div class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <h1 class="titulo">Bootstrap</h1>
+          <button
+            type="button"
+            class="navbar-toggler"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="true"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="navbar-collapse collapse-show"
+            id="navbarSupportedContent"
+            style
+          >
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#about">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#documentacao">Documentação</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#exemplos">Exemplos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="container">
+      <div
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+        id="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carousel"
+            data-bs-slide-to="0"
+            class="active"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carousel"
+            data-bs-slide-to="1"
+            class="active"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carousel"
+            data-bs-slide-to="2"
+            class="active"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div data-bs-interval="3000" class="carousel-item active">
+            <img class="d-block w-100" src="./images/bootstrap-stack.png" />
+            <div class="carousel-caption">
+              <p>Bootstrap - Seu melhor caminho</p>
+            </div>
+          </div>
+          <div data-bs-interval="3000" class="carousel-item">
+            <img class="d-block w-100" src="./images/boot.png" />
+            <div class="carousel-caption">
+              <p>Aumente sua produtividade!</p>
+            </div>
+          </div>
+          <div data-bs-interval="3000" class="carousel-item">
+            <img class="d-block w-100" src="./images/bootstrap-que-es.png" />
+            <div class="carousel-caption">
+              <p>Personalize!</p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="about" id="about">
+        <div class="card">
+          <h2>Bootstrap</h2>
+          <div class="row">
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Veritatis minus fugiat delectus quae nemo corrupti, voluptate
+              deleniti, reprehenderit adipisci, tempora id. Dolorum illum
+              doloremque, perspiciatis ducimus, laudantium soluta delectus
+              aliquid voluptatibus expedita hic, quisquam deserunt! Blanditiis,
+              mollitia assumenda, tempora commodi quaerat nobis ut aliquid sit
+              quos at tenetur placeat magni.
+            </p>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus
+              dolorem quibusdam, dignissimos alias consectetur porro aperiam
+              reiciendis earum sit consequatur labore unde assumenda, aliquam
+              officiis non omnis dolore voluptatum quisquam.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta,
+              aliquam voluptas? Dignissimos officia error id quibusdam deleniti
+              consequatur esse earum eligendi ut, sit exercitationem nam
+              pariatur beatae, eius obcaecati! Perspiciatis cupiditate suscipit
+              ex pariatur, provident incidunt aliquid sint neque ad saepe minima
+              autem, illo aspernatur doloribus modi voluptate perferendis
+              ducimus!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="documentacao" id="documentacao">
+        <h2>Documentação</h2>
+      </div>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+        <div class="col">
+          <div class="card">
+            <img src="./images/bootstrap-intro.jpeg" class="card-img-top" />
+            <div class="card-body">
+              <h5 class="card-title text-center">Introdução da documentação</h5>
+              <p class="card-title text-center">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis,
+                beatae ducimus sed aperiam numquam deleniti explicabo amet
+                tempora unde rerum, in corporis facilis deserunt velit.
+              </p>
+              <button type="button" class="btn btn-more">Saiba mais</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./images/bootstrap-intro.jpeg" class="card-img-top" />
+            <div class="card-body">
+              <h5 class="card-title text-center">Download</h5>
+              <p class="card-title text-center">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis,
+                beatae ducimus sed aperiam numquam deleniti explicabo amet
+                tempora unde rerum, in corporis facilis deserunt velit.
+              </p>
+              <button type="button" class="btn btn-more">Saiba mais</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./images/bootstrap-intro.jpeg" class="card-img-top" />
+            <div class="card-body">
+              <h5 class="card-title text-center">Conteúdos</h5>
+              <p class="card-title text-center">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis,
+                beatae ducimus sed aperiam numquam deleniti explicabo amet
+                tempora unde rerum, in corporis facilis deserunt velit.?
+              </p>
+              <button type="button" class="btn btn-more">Saiba mais</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="exemplos" id="exemplos">
+        <h2>Exemplos</h2>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+          <div class="col">
+            <div class="card" class="card-image-top">
+              <img src="./images/bootstrap-intro.jpeg" />
+              <div class="card-body">
+                <h5 class="card-title text-center">
+                  Componentes Personalizados
+                </h5>
+                <p class="card-title text-center">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Omnis, beatae ducimus sed aperiam numquam deleniti explicabo
+                  amet tempora unde rerum, in corporis facilis deserunt velit.
+                </p>
+                <button type="button" class="btn btn-more">Saiba mais</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" class="card-image-top">
+              <img src="./images/bootstrap-intro.jpeg" />
+              <div class="card-body">
+                <h5 class="card-title text-center">Frameworks</h5>
+                <p class="card-title text-center">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Omnis, beatae ducimus sed aperiam numquam deleniti explicabo
+                  amet tempora unde rerum, in corporis facilis deserunt velit.
+                </p>
+                <button type="button" class="btn btn-more">Saiba mais</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" class="card-image-top">
+              <img src="./images/bootstrap-intro.jpeg" />
+              <div class="card-body">
+                <h5 class="card-title text-center">Barra de navegação</h5>
+                <p class="card-title text-center">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Omnis, beatae ducimus sed aperiam numquam deleniti explicabo
+                  amet tempora unde rerum, in corporis facilis deserunt velit.
+                </p>
+                <button type="button" class="btn btn-more">Saiba mais</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <footer>
+        <p>
+          Desenvolvido por
+          <a href="https://github.com/DiegoGervazoni" target="_blank"
+            >Diego A. Gervazoni | &copy; 2024</a
+          >
+        </p>
+      </footer>
+    </div>
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

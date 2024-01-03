@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+header{
+  background-color: #563D7C;
+}
+
+.container {
+  max-width: 80rem;
+  width: 100%;
+  padding: 0px;
+}
+
+.navbar {
+  width: 98%;
+  margin: auto;
+  margin-top: .75rem;
+}
+
+.titulo {
+  color: #fff;
+  margin-left: 10px;
+}
+
+.navbar a {
+  color: #ac9bc7;
+  font-size: 1.5rem;
+}
+
+.navbar a:hover {
+  color: #fff;
+}
+
+.carousel {
+  margin: auto;
+  width: 100%;
+  margin-top: 1.5rem;
+}
+
+.carousel-item img {
+  height: 80vh;
+  object-fit: cover;
+  border-radius: .75rem;
+}
+
+.carousel-indicators {
+  border-radius: 12px;
+  padding-bottom: .75rem;
+}
+
+.carousel-caption{
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 12px;
+  font-weight: 500;
+}
+
+.carousel-control-next-icon {
+  background-image: url(./images/carousel-next.png);
+}
+
+.carousel-control-prev-icon {
+  background-image: url(./images/carousel-previous.png);
+}
+
+.card {
+  margin-top: 1.5rem;
+  border: 1px solid;
+  background-color: rgba(253, 206, 223, 0.4);
+}
+
+.about h2 {
+  margin-top: 1.125rem;
+}
+
+.about p {
+  padding: .625rem 2rem;
+  text-align: justify;
+}
+
+h2 {
+  margin-left: 2rem;
+  font-size: 1.5rem;
+  color: #563D7C;
+  font-weight: 700;
+}
+
+.documentacao {
+  width: 100%;
+  margin: auto;
+  margin-top: 2.5rem;
+}
+
+.exemplos {
+  width: 100%;
+  margin: auto;
+  margin-top: 2.5rem;
+}
+.card-body {
+  padding: .625rem;
+}
+
+.card-body h5 {
+  font-size: 1.3rem;
+  color: #563D7C;
+  font-weight: 700;
+}
+
+.btn-more {
+  margin: 0;
+  border: 0;
+  background-color: rgba(55, 55, 110, 0.8);
+  box-shadow: rgba(55, 55, 110, 0.6);
+  width: 100%;
+}
+
+.btn-more:hover {
+  background-color: rgba(250, 128, 114, 1);
+  box-shadow: rgba(250, 128, 114, 0.8);
+}
+
+.container footer {
+  width: 100%;
+  margin: auto;
+  margin-top: 3rem;
+  margin-bottom: .75rem;
+  border-radius: 12px;
+  padding: .75rem;
+  text-align: center;
+  border: 1px solid rgba(253, 206, 223, 0.6);
+  box-shadow: rgba(253, 206, 223, 0.9) 2.4px 2.4px 3.2px;
+}
+
+footer p a {
+  text-decoration: none;
+  color: #563D7C;
+}
